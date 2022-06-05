@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header class="header">
+
+        <nav class="navbar">
+            <div class="img">
+                <img src="/Resources/Logo.png" alt="Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/Home.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/about.html" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/products.html" class="nav-link">Products</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/career.html" class="nav-link">Career</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/contact.html" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+            <div class="cart">
+                <i class="uil uil-shopping-cart-alt"></i>
+            </div>
+
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <img src="/Resources/shake-hand.jpeg" alt="" id="img-career" data-aos = "zoom-out">
+        </div>
+    </main>
+
+    <main>
+        <div class="container-career">
+            <h1>Career opportunity</h1>
+            <div class="line-1"></div>
+            <div class="career-des">
+                <p class="career-des-1" data-aos="fade-left">
+                    Our growing operations worldwide create exciting opportunities for performance-driven professionals. At PHG we offer challenging jobs that will push your talents and potentials beyond imaginable limits.
+                    We're continually looking for extraordinarily motivated individuals who believe in doing the right thing, and will strive to make a difference in the performance of their jobs. Our diverse range of opportunities covers both technical and commercial areas that suit both recent graduates and experienced professionals.
+                    Interested parties please <b id="click"><u>see our list jobs here</u></b>
+                </p>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">
+                            &times;
+                        </span>
+                        <h3>List of jobs</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            There is no jobs yet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            Copyright <i class="uil uil-copyright"></i> 2021 Tiga Bintang Kreasi
+        </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            offset:200,
+            duration: 1000
+        });
+    </script>
+</body>
