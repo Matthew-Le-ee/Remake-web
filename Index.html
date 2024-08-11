@@ -1,145 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<title>Login Form</title>
+<link rel="stylesheet" href="/test/style.css">
 </head>
-
 <body>
-    <header class="header">
-
-        <nav class="navbar">
-            <div class="img">
-                <img src="/Resources/Logo.png" alt="Logo">
-            </div>
-
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="./index.html" class="nav-link">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="./HTML/about.html" class="nav-link">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="./HTML/products.html" class="nav-link">Products</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="./HTML/career.html" class="nav-link">Career</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="./HTML/contact.html" class="nav-link">Contact</a>
-                </li>
-
-            </ul>
-
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="cart">
-                <i class="uil uil-shopping-cart-alt"></i>
-            </div>
-        </nav>
-    </header>
-
-
-    <main id="home">
-        <div class="container">
-            <div class="wrapper" data-aos="zoom-in-up">
-                <div class="text" data-aos="fade-up">
-                    <h2 class="title">Tiga Bintang Kreasi</h2>
-                    <p class="subtitle"> we sell products printing that you might need for your printing </p>
-                    <a href="/career.html">
-                        <button class="btn" data-aos="fade-down">
-                            Join Us
-                        </button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <main>
-        <div class="container">
-            <h1>Company profile </h1>
-            <div class="line"></div>
-            <div class="description">
-                <div class="des">
-                    <p data-aos="flip-left">
-                        “ Tiga BIntang kreasi company is printing company which is based in indonesian. we are startup company which was founded in 2000 as cv. Tiga bintang. we are sell products digital and offset products for printing. our location in karya street no.5, medan,
-                        north sumatera. “
-                    </p>
-                    <a href="/about.html">
-                        <button class="btn-des" data-aos="fade-down">
-                        Read More
-                    </button>
-                    </a>
-                </div>
-                <div class="image" data-aos="fade-right">
-                    <img src="/Resources/employee.jpeg" alt="employee" class="img-des">
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <main class="icon-main">
-        <div class="container">
-            <h1>Our values</h1>
-            <div class="line"></div>
-            <div class="icon" data-aos="fade-left">
-                <div class="icon-1">
-                    <img src="/Resources/values_group.png" alt="Teamwork" data-aos="fade-left">
-                    <p data-aos="fade-up">
-                        Teamwork
-                    </p>
-                </div>
-                <div class="icon-2">
-                    <img src="/Resources/values_professional.png" alt="Professional" data-aos="fade-right">
-                    <p data-aos="fade-up">
-                        Professionalism
-                    </p>
-                </div>
-                <div class="icon-3">
-                    <img src="/Resources/values_communication.png" alt="communication" data-aos="fade-left">
-                    <p data-aos="fade-up">
-                        Communication
-                    </p>
-                </div>
-                <div class="icon-4">
-                    <img src="/Resources/values_excellence.png" alt="excellence" data-aos="fade-right">
-                    <p data-aos="fade-up">
-                        Excellence
-                    </p>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div class="footer">
-            Copyright <i class="uil uil-copyright"></i> 2021 Tiga Bintang Kreasi
-        </div>
-    </footer>
-    <script src="/js/app.js"></script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
-    <script>
-        AOS.init({
-            offset: 0,
-            duration: 1000
-        });
-    </script>
+<div class="container">
+<div class="main">
+<h2>Login Form</h2>
+<form id="form_id" method="post" name="myform" action="/home.html">
+<label>User Name :</label>
+<input type="text" name="username" id="username" />
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<span><b class="note">Note : </b>For this  use following username and password for <b>Demo</b>. <br/>
+    <b class="valid">User Name : Tiga Bintang Kreasi<br/>Password : Tigabintangkreasi123</b></span>
+</div>
+</div>
+<script src="/test/ap.js"></script>
 </body>
-
 </html>

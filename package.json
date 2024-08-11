@@ -1,0 +1,27 @@
+{
+  "name": "remake-web",
+  "version": "1.0.0",
+  "description": "---\r https://remake-web.netlify.app <br/>\r Thanks You !",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Le-ee/Remake-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthew-Le-ee/Remake-web/issues"
+  },
+  "homepage": "https://github.com/Matthew-Le-ee/Remake-web#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
